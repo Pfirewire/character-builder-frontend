@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 import NavbarLogo from "./components/NavbarLogo";
 import ProfileButton from "./components/ProfileButton";
 import CenterLinks from "./components/CenterLinks";
-import Hamburger from "./components/Hamburger";
+import HamburgerMenu from "./components/HamburgerMenu";
 
 class Sitebar extends React.Component {
     constructor(props) {
@@ -13,7 +13,7 @@ class Sitebar extends React.Component {
     render() {
         return (
             <SitebarWrapper>
-                <Hamburger />
+                <HamburgerMenu />
                 <NavbarLogo />
                 <CenterLinks />
                 <ProfileButton />
